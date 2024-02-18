@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>{{ page.title }} - Krikeshh</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="icon" href="/assets/images/profile3.jpg">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Krikeshh">
+    {% if page.description != null %}
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
+    {% if page.title != null %}
+    <meta property="og:title" content="{{ page.title }}"/>
+    {% endif %}
+    {% if page.teaser != null %}
+    <meta property="og:image" content="{{ page.teaser }}"/>
+    <meta property="og:image:width" content="960" />
+    <meta property="og:image:height" content="540"/>
+    {% endif %}
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="Krikeshh" />
+  </head>
+  <body>
+    {% include navigation.html %}
+    <section>
+      {{ content }}
+    </section>
+  </body>
+</html>

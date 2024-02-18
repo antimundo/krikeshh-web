@@ -1,0 +1,6 @@
+url: https://krikeshh.github.io
+baseurl:
+
+collections:
+  my_categories:
+    output: true

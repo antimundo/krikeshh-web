@@ -1,0 +1,23 @@
+instagram:
+  id: 'krikeshh'
+  href: 'https://www.instagram.com/krikeshh/?hl=es'
+  title: 'Itch.io'
+  icon: 'instagram-logo.svg'
+
+itchio:
+  id: 'krikeshh'
+  href: 'https://krikeshh.itch.io/'
+  title: 'Itch.io'
+  icon: 'itchio-logo.svg'
+
+linkedin:
+  id: 'sara-krikech-alcalde-1091a6163'
+  href: 'https://www.linkedin.com/in/sara-krikech-alcalde-1091a6163/'
+  title: 'Linkedin'
+  icon: 'linkedin-logo.svg'
+
+email:
+  id: 'sara.alcalde.k@gmail.com'
+  href: 'sara.alcalde.k@gmail.com'
+  title: 'Email'
+  icon: 'email-logo.svg'
