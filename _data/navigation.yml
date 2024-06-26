@@ -1,6 +1,10 @@
-- name: Work
+- name: Projects
   link: /
+- name: Preproduction
+  link: /preproduction.html
+- name: Personal Work
+  link: /personal-work.html
 - name: Blog
   link: /blog.html
-- name: About me
+- name: About Me
   link: /about.html

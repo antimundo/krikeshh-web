@@ -51,7 +51,7 @@ header > div {
 header > div > h1 {
     font-weight: 250;
     font-size: 50px;
-    padding: 55px 0 45px 0;
+    padding: 40px 0 30px 0;
     letter-spacing: 20px;
 }
 header > div > img {
@@ -70,19 +70,17 @@ header>div>p {
     margin-top: 35px;
     display: flex;
     width: 100%;
-    max-width: 300px;
+    max-width: 600px;
     justify-content: space-between;
 }
 
 .header-nav>a {
     font-weight: 500;
     padding-bottom: 3px;
-    border-bottom: 2px solid #ffd6c7;
 }
 
 .header-nav>.current {
     color: #777;
-    border-bottom: 3px solid #ddd;
 }
 
 /* section */
