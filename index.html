@@ -3,15 +3,87 @@ layout: default
 title: Home
 description: "Spanish artist based in Madrid. I use charcoal and digital mediums such as Krita. Have a look at my portfolio!"
 ---
+
+<style>
+    .columns{
+        display: flex;
+        align-items: flex-start;
+        gap: 50px;
+    }
+    @media (max-width: 500px) {
+        .columns{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+</style>
+    
+<div class="columns">
+    <img src="/assets/images/profile4.png" width="337px" height="347px"/>
+    <div>
+        <h2>Sara Krikech</h2>
+        <p>Hi!</p>
+        <p>I'm a spanish artist interested in 2DFX, visual development, background design, and art direction!</p>
+        <p>I have some experience with game development. Illustrated two games that you can check out right on <a href="https://krikeshh.itch.io/">krikeshh.itch.io</a></p>
+        <p>Need an artist? Write me at:</p>
+        <a href="mailto: {{ site.data.social-media.email.href }}">{{ site.data.social-media.email.href }}</a>
+    </div>
+</div>
+
+
+<style>
+    .social-buttons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .social-button{
+        display: block;
+        border-radius: 8px;
+        box-shadow: 0px 0px 8px #ddd;
+        padding: 16px 32px 16px 32px;
+        margin: 8px;
+        min-width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    .social-button:hover{
+        background: #faf4f7;
+    }
+</style>
+
+<div style="height: 40px;"></div>
+
+{% if site.data.social-media %}
+<div class="social-buttons">
+    {% assign sm = site.data.social-media %}
+    {% for entry in site.data.social-media %}
+        {% assign key = entry | first %}
+        {% if sm[key].id %}
+            <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}" rel="me" class="social-button">
+                <img height="24px" width="24px" src="/assets/images/social/{{ sm[key].icon }}" alt="{{ sm[key].title }}" style="margin-right: 32px;"/>
+                <p>{{ sm[key].title }}</p>
+            </a>
+        {% endif %}
+    {% endfor %}
+</div>
+{% endif %}
+
+<div style="height: 40px;"></div>
+
 <img src="/assets/images/notebook.jpg">
 
 <div style="height: 40px;"></div>
 
 <div id="gallery" class="gallery-spaced">
+    <img src="/assets/images/work/moodeng.jpg"/>
+    <img src="/assets/images/work/fire.jpg"/>
+    <img src="/assets/images/work/rodeo.jpg"/>
     <img src="/assets/images/work/canyon.jpg"/>
     <img src="/assets/images/work/narnia.jpg"/>
     <img src="/assets/images/work/girl.jpg"/>
-    <img src="/assets/images/work/Horse.jpg"/>
+    <img src="/assets/images/work/horse.jpg"/>
     <img src="/assets/images/work/plants.jpg"/>
     <img src="/assets/images/work/house.jpg"/>
     <img src="/assets/images/work/bug-1.jpg"/>
