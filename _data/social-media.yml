@@ -1,6 +1,6 @@
 instagram:
   id: 'krikeshh'
-  href: 'https://www.instagram.com/krikeshh/?hl=es'
+  href: 'https://www.instagram.com/krikeshh/'
   title: 'Instagram'
   icon: 'instagram-logo.svg'
 
@@ -18,6 +18,6 @@ linkedin:
 
 email:
   id: 'sara.alcalde.k@gmail.com'
-  href: 'sara.alcalde.k@gmail.com'
+  href: 'mailto:sara.alcalde.k@gmail.com'
   title: 'Email'
   icon: 'email-logo.svg'

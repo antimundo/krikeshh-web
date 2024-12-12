@@ -4,6 +4,7 @@
     {% for entry in site.data.social-media %}
         {% assign key = entry | first %}
         {% if sm[key].id %}
+            <a href="{{ sm[key].href }}" title="{{ sm[key].title }}" rel="me">
             <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}" rel="me">
                 <img height="24px" width="24px" src="/assets/images/social/{{ sm[key].icon }}" alt="{{ sm[key].title }}"/>
             </a>

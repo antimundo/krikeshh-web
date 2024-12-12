@@ -35,7 +35,7 @@ description: "Spanish artist based in Madrid. I use charcoal and digital mediums
         <p>I'm a spanish artist interested in 2DFX, visual development, background design, and art direction!</p>
         <p>I have some experience with game development. Illustrated two games that you can check out right on <a href="https://krikeshh.itch.io/">krikeshh.itch.io</a></p>
         <p>Need an artist? Write me at:</p>
-        <a href="mailto: {{ site.data.social-media.email.href }}">{{ site.data.social-media.email.href }}</a>
+        <a href="{{ site.data.social-media.email.href }}">{{ site.data.social-media.email.id }}</a>
     </div>
 </div>
 
@@ -76,7 +76,7 @@ description: "Spanish artist based in Madrid. I use charcoal and digital mediums
     {% for entry in site.data.social-media %}
         {% assign key = entry | first %}
         {% if sm[key].id %}
-            <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}" rel="me" class="social-button">
+            <a href="{{ sm[key].href }}" title="{{ sm[key].title }}" rel="me" class="social-button">
                 <img height="24px" width="24px" src="/assets/images/social/{{ sm[key].icon }}" alt="{{ sm[key].title }}" style="margin-right: 32px;"/>
                 <p>{{ sm[key].title }}</p>
             </a>
