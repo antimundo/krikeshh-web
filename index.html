@@ -15,6 +15,15 @@ description: "Spanish artist based in Madrid. I use charcoal and digital mediums
             flex-wrap: wrap;
             justify-content: center;
         }
+        .columns > img {
+            max-width: 200px;
+            width: 100%;
+            height: auto;
+        }
+        .columns {
+            padding-left: 20px;
+            padding-right: 30px;
+        }
     }
 </style>
     
@@ -50,6 +59,12 @@ description: "Spanish artist based in Madrid. I use charcoal and digital mediums
     }
     .social-button:hover{
         background: #faf4f7;
+    }
+    @media (max-width: 500px) {
+        .social-button{
+            width: 100%;
+            min-width: 0px;
+        }
     }
 </style>
 
