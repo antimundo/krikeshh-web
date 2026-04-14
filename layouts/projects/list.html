@@ -1,0 +1,25 @@
+{{ define "main" }}
+<!--
+<h1>{{ .Title }}</h1>
+<p>{{ .Content }}</p>
+-->
+<h3>Games</h3>
+<ul>
+    {{ range sort (where .RegularPages "Params.category" "games") "Date" "asc" }}
+    <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a><br>
+        {{ .Params.excerpt }}
+    </li>
+    {{ end }}
+</ul>
+
+<h3>Miscellaneous</h3>
+<ul>
+    {{ range sort (where .RegularPages "Params.category" "misc") "Date" "asc" }}
+    <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a><br>
+        {{ .Params.excerpt }}
+    </li>
+    {{ end }}
+</ul>
+{{ end }}

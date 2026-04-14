@@ -1,0 +1,126 @@
+{{ define "main" }}
+<style>
+  .columns {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+  }
+
+  @media (max-width: 500px) {
+    .columns {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .columns>img {
+      max-width: 200px;
+      width: 100%;
+      height: auto;
+    }
+
+    .columns {
+      padding-left: 20px;
+      padding-right: 30px;
+    }
+  }
+</style>
+
+<div class="columns">
+  <img src="/images/profile4.png" width="337px" height="347px" />
+  <div>
+    <h2>Sara Krikech</h2>
+    <p>Hi!</p>
+    <p>I'm a spanish artist interested in 2DFX, visual development, background design, and art direction!</p>
+    <p>I have some experience with game development. Illustrated two games that you can check out right on <a
+        href="https://krikeshh.itch.io/">krikeshh.itch.io</a></p>
+    <p>Need an artist? Write me at:</p>
+
+    <a href='{{ (index site.Data "social_media").email.href }}'>
+      {{ (index site.Data "social_media").email.id }}
+    </a>
+
+  </div>
+</div>
+
+
+<style>
+  .social-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .social-button {
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px #ddd;
+    padding: 16px 32px 16px 32px;
+    margin: 8px;
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .social-button:hover {
+    background: #faf4f7;
+  }
+
+  @media (max-width: 500px) {
+    .social-button {
+      width: 100%;
+      min-width: 0px;
+    }
+  }
+</style>
+
+<div style="height: 40px;"></div>
+
+{{ with index site.Data "social_media" }}
+<div class="social-buttons">
+  {{ range . }}
+  {{ if .id }}
+  <a href="{{ .href }}" title="{{ .title }}" rel="me" class="social-button">
+    <img height="24px" width="24px" src="/images/social/{{ .icon }}" alt="{{ .title }}" style="margin-right: 32px;">
+    <p>{{ .title }}</p>
+  </a>
+  {{ end }}
+  {{ end }}
+</div>
+{{ end }}
+
+<div style="height: 40px;"></div>
+
+<img src="/images/notebook.jpg">
+
+<div style="height: 40px;"></div>
+
+<div id="gallery" class="gallery-spaced">
+  <img src="/images/work/moodeng.jpg" />
+  <img src="/images/work/fire.jpg" />
+  <img src="/images/work/rodeo.jpg" />
+  <img src="/images/work/canyon.jpg" />
+  <img src="/images/work/narnia.jpg" />
+  <img src="/images/work/girl.jpg" />
+  <img src="/images/work/magnetic.jpg" />
+  <img src="/images/work/plants.jpg" />
+  <img src="/images/work/house.jpg" />
+  <img src="/images/work/bug-1.jpg" />
+  <img src="/images/work/bug-2.jpg" />
+  <img src="/images/work/bug-3.jpg" />
+</div>
+
+
+{{ range where .Site.RegularPages "Section" "posts" }}
+<article class="blog-item">
+  {{ with .Params.teaser }}
+  <img src="{{ . | relURL }}" alt="Teaser image">
+  {{ end }}
+  <div>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    <p><i>{{ .Date.Format "2006-01-02" }}</i></p>
+    <p>{{ .Summary }}</p>
+  </div>
+</article>
+{{ end }}
+{{ end }}
