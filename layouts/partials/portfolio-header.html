@@ -1,0 +1,34 @@
+<style>
+#portfolio-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+#portfolio-nav > a {
+    color: #ad2a4d;
+    padding: 12px;
+    font-weight: 500;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#portfolio-nav > a.active {
+    color: white;
+    background-color: #ad2a4d;
+}
+</style>
+
+<h1>Portfolio</h1>
+
+<nav id="portfolio-nav">
+    {{ $portfolio := site.GetPage "section" "portfolio" }}
+
+    {{ range $portfolio.Pages }}
+        <a href="{{ .RelPermalink }}"
+           class="{{ if eq .RelPermalink $.RelPermalink }}active{{ end }}">
+            {{ .Title }}
+        </a>
+    {{ end }}
+</nav>

@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Krikeshh</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/portfolio/</link>
     <description>Recent content on Krikeshh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Animation</title>
       <link>http://localhost:1313/portfolio/animation/</link>

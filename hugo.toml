@@ -1,3 +1,8 @@
 baseURL = 'https://krikeshh.com/'
 languageCode = 'es'
 title = 'Krikeshh'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
