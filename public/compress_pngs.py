@@ -1,12 +1,4 @@
 #!/usr/bin/env python3
-"""
-This scripts compresses all .png images on its folder and subfolders
-
-You need to install Pillow to use this script
-python3 -m venv .venv
-source .venv/bin/activate
-pip install Pillow
-"""
 
 from pathlib import Path
 from PIL import Image
