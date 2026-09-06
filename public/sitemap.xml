@@ -14,8 +14,12 @@
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
+    <loc>http://localhost:1313/portfolio/props/</loc>
+  </url><url>
     <loc>http://localhost:1313/portfolio/sketchbook/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/visual-development/</loc>
   </url>
 </urlset>

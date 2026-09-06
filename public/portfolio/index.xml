@@ -1,39 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Krikeshh</title>
-    <link>http://localhost:1313/portfolio/</link>
-    <description>Recent content on Krikeshh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es</language>
-    <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Animation</title>
-      <link>http://localhost:1313/portfolio/animation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/animation/</guid>
-      <description>A</description>
-    </item>
-    <item>
-      <title>Background and layout</title>
-      <link>http://localhost:1313/portfolio/background-and-layout/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/background-and-layout/</guid>
-      <description>B</description>
-    </item>
-    <item>
-      <title>Illustration</title>
-      <link>http://localhost:1313/portfolio/illustration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/illustration/</guid>
-      <description>C</description>
-    </item>
-    <item>
-      <title>Sketchbook</title>
-      <link>http://localhost:1313/portfolio/sketchbook/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/sketchbook/</guid>
-      <description>D</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Krikeshh</title>
+		<link>http://localhost:1313/portfolio/</link>
+		<description>Recent content on Krikeshh</description>
+		<generator>Hugo</generator>
+		<language>es</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Animation</title>
+				<link>http://localhost:1313/portfolio/animation/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/portfolio/animation/</guid>
+				<description>&lt;p&gt;My passion for 2DFX has always been there since I started studying animation.&#xA;I&amp;rsquo;ve had the chance to work on a couple of projects in charge of the 2DFX.&lt;/p&gt;&#xA;&lt;p&gt;Shortfilms:&#xD;&#xA; As de Bastos, Rodeo, Calcetines, Elvia&#xD;&#xA;&lt;p&gt;Films: Chica y Lobo (Hampa)&lt;/p&gt;&#xA;&lt;p&gt; I also enjoy developing my own animated projects mixing music with animation.&#xD;&#xA;&lt;div id=&#34;gallery&#34; class=&#34;gallery-crunched&#34;&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/animation/anim02.gif&#34; /&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/animation/anim01.gif&#34; /&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;2dfx-practice&#34;&gt;2DFX practice&lt;/h2&gt;&#xA;&lt;div id=&#34;gallery&#34; class=&#34;gallery-spaced&#34;&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/animation/anim1.gif&#34; /&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/animation/anim2.gif&#34; /&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/animation/anim3.gif&#34; /&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/animation/anim5.gif&#34; /&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/animation/anim6.gif&#34; /&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/animation/anim7.gif&#34; /&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/animation/anim8.gif&#34; /&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/animation/anim9.gif&#34; /&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/animation/anim10.gif&#34; /&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;twitch-waiting-screen&#34;&gt;Twitch waiting screen&lt;/h2&gt;&#xA;&lt;p&gt;Commision for a twitch channel, I was in charge of all aspects.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Background and layout</title>
+				<link>http://localhost:1313/portfolio/background-and-layout/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/portfolio/background-and-layout/</guid>
+				<description>&lt;h2 id=&#34;rodeo&#34;&gt;RODEO&lt;/h2&gt;&#xA;&lt;p&gt;Shortfilm where participated as a BG artist, Layout and prop design artist.&lt;/p&gt;&#xA;&lt;p&gt;A story full of pink, glitter and many many explosions. Two girls with a mission to steal from a grumpy old man a precious golden pistol.&#xA;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/portfolio/rodeo/rodeo1.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/rodeo/rodeo.22.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/rodeo/rodeo3.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/rodeo/rodeo4.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/rodeo/rodeo5.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/rodeo/rodeo6.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/rodeo/rodeo7.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/rodeo/rodeo8.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/rodeo/rodeo9.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/rodeo/rodeo10.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/rodeo/rodeo11.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/rodeo/rodeo12.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Illustration</title>
+				<link>http://localhost:1313/portfolio/illustration/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/portfolio/illustration/</guid>
+				<description>&lt;h2 id=&#34;a-wedding-at-the-prado-museum&#34;&gt;A Wedding at the Prado Museum&lt;/h2&gt;&#xA;&lt;p&gt;Personal project.&lt;/p&gt;&#xA;&lt;p&gt; An educational guide for teenagers. Two characters guide the visitor throughout the museum, the text includes fun facts about each of the paintings plus an activity to do at the end of the visit. Each side has a different theme for those who prefer &#34;romantic paintings&#34; or a bit more &#34;dark and gore&#34; themes.&#xD;&#xA;&lt;br&gt;&lt;br&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/portfolio/illustration/ilu1.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/illustration/ilu2.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;&#xA;&lt;div id=&#34;gallery&#34; class=&#34;gallery-crunched&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:1313/images/portfolio/illustration/pose1.png&#34; /&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:1313/images/portfolio/illustration/pose3.png&#34; /&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;br&gt;&#xD;&#xA;&lt;h2 id=&#34;other-works&#34;&gt;Other works&lt;/h2&gt;&#xA;&lt;div id=&#34;gallery&#34; class=&#34;gallery-spaced&#34;&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/images/portfolio/illustration/ilu4.jpeg&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/images/portfolio/illustration/ilu5.PNG&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/images/portfolio/illustration/ilu6.jpeg&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/images/portfolio/illustration/ilu7.png&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/images/portfolio/illustration/ilu8.png&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/images/portfolio/illustration/ilu9.png&#34; /&gt; &#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/images/portfolio/illustration/ilu10.jpeg&#34; /&gt; &#xD;&#xA; &lt;img src=&#34;http://localhost:1313/images/portfolio/illustration/ilu11.png&#34; /&gt; &#xD;&#xA; &lt;img src=&#34;http://localhost:1313/images/portfolio/illustration/ilu12.png&#34; /&gt; &#xD;&#xA; &lt;img src=&#34;http://localhost:1313/images/portfolio/illustration/ilu13.png&#34; /&gt; &#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/images/portfolio/illustration/ilu14.png&#34; /&gt; &#xD;&#xA; &lt;img src=&#34;http://localhost:1313/images/portfolio/illustration/ilu15.png&#34; /&gt; &#xD;&#xA;&lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>Props</title>
+				<link>http://localhost:1313/portfolio/props/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/portfolio/props/</guid>
+				<description>&lt;h2 id=&#34;rodeo&#34;&gt;Rodeo&lt;/h2&gt;&#xA;&lt;p&gt;I was in charge of designing most of the hero props, posters and painting around the saloon.&#xA;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/portfolio/props/prop1.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/props/1.1.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/props/1.3.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/props/1.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/props/prop2.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/props/prop2.5.jpg&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/props/prop4.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/props/prop7.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/props/prop8.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/props/prop9.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/props/prop10.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/props/prop11.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;hua-awakens&#34;&gt;Hua Awakens&lt;/h2&gt;&#xA;&lt;p&gt;I was in charge of designing the street where the main character lived. The movie is located in Lima, Peru. The street resembled the local &amp;ldquo;Chinatown&amp;rdquo; known for their Chifa, restaurants that serve chinese cousine adapted to the peruvian taste.&#xA;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Sketchbook</title>
+				<link>http://localhost:1313/portfolio/sketchbook/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/portfolio/sketchbook/</guid>
+				<description>&lt;p&gt;I like to organise art meet-ups with people at museums. Here are some of my sketches from exhibitions and people watching.&#xA;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/portfolio/sketchbook/pag1.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/sketchbook/pag2.jpg&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;&#xA;&lt;div id=&#34;gallery&#34; class=&#34;gallery-crunched&#34;&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/sketchbook/pag11.jpg&#34; /&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/sketchbook/pag12.jpg&#34; /&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:1313/images/portfolio/sketchbook/pag13.jpg&#34; /&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:1313/images/portfolio/sketchbook/pag14.jpg&#34; /&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:1313/images/portfolio/sketchbook/pag15.jpg&#34; /&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:1313/images/portfolio/sketchbook/pag16.jpg&#34; /&gt;&#xD;&#xA;   &lt;img src=&#34;http://localhost:1313/images/portfolio/sketchbook/pag17.jpg&#34; /&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:1313/images/portfolio/sketchbook/pag08.jpg&#34; /&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/sketchbook/pag09.jpg&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/images/portfolio/sketchbook/pag10.jpg&#34; /&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;div id=&#34;gallery&#34; class=&#34;gallery-crunched&#34;&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/images/portfolio/sketchbook/pag19.jpg&#34; /&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:1313/images/portfolio/sketchbook/pag20.jpg&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/images/portfolio/sketchbook/pag21.jpg&#34; /&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:1313/images/portfolio/sketchbook/pag22.jpg&#34; /&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:1313/images/portfolio/sketchbook/pag23.jpg&#34; /&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:1313/images/portfolio/sketchbook/pag24.jpg&#34; /&gt;&#xD;&#xA;&lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>Visual Development</title>
+				<link>http://localhost:1313/portfolio/visual-development/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/portfolio/visual-development/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/portfolio/props/prop.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;ratinca&#34;&gt;Ratinca&lt;/h2&gt;&#xA;&lt;p&gt;Visual Development Project inspired by the work of Thomas Scholes&lt;/p&gt;&#xA;&lt;p&gt;A city located in a mountain top. Inhabited by rat like people, and architecture inspired by the Incas. The climate is foggy and very humid, witch tropical vegetation.&#xA;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/portfolio/ratinca/ratinca_01.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/ratinca/ratinca_02.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/ratinca/ratinca_03.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/ratinca/ratinca_04.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/ratinca/ratinca_06.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/ratinca/ratinca_07.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;güiro&#34;&gt;Güiro&lt;/h2&gt;&#xA;&lt;p&gt;Visual exploration for a graduation shortfilm.&#xA;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/portfolio/guiro/guiro1.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/guiro/guiro2.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/guiro/guiro3.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/guiro/guiro5.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/guiro/guiro6.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/guiro/guiro7.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/guiro/guiro8.png&#34; alt=&#34;alt text&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portfolio/guiro/guiro9.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
