@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <article>
+    <h1>{{ .Title }}</h1>
+    {{ if eq .Section "posts" }}
+      <p><i>{{ .Date.Format "2006-01-02" }}</i></p>
+    {{ end }}
+    {{ with .Params.teaser }}
+      <img src="{{ . | relURL }}" alt="Teaser image">
+    {{ end }}
+    {{ .Content }}
+  </article>
+{{ end }}

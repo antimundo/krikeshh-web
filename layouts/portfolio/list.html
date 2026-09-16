@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+<meta http-equiv="refresh" content="0; url={{ "/portfolio/animation/" | relURL }}">
+<script>
+    window.location.replace("{{ "/portfolio/animation/" | relURL }}");
+</script>
+
+{{ partial "portfolio-header.html" . }}
+
+{{ .Content }}
+
+{{ end }}
