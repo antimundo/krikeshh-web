@@ -13,7 +13,7 @@ a {
     text-decoration: none;
 }
 
-img, iframe{
+img, iframe, video{
     max-width: 100%;
 }
 
